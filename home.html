@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html style="height: 100%">
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+    </head>
+    <body
+        style="
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+            box-sizing: border-box;
+        "
+    >
+        <h1 style="text-align: center">Welcome to the Quiz Application</h1>
+        <p style="text-align: center">
+            Hello welcome to the Quiz Application. Please select the Quiz type below and click on
+            the Start button to start the quiz.
+        </p>
+
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 20px">
+            <select name="quizType" id="quizType">
+                <option value="1">General Knowledge</option>
+                <option value="2">Science</option>
+                <option value="3">Sports</option>
+            </select>
+
+            <!-- <button type="" id="startQuiz">Start Quiz</button> -->
+            <a href="test.html" id="startQuiz">Start Quiz</a>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,51 @@
+#startQuiz {
+    background-color: #9999A1;
+    color: green;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0px;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+#startQuiz:hover {
+    background-color: #666673;
+    color: red;
+    cursor: pointer;
+}
+
+#question {
+    background-color: #9999;
+    padding: 16px;
+    font-family: sans-serif;
+
+}
+
+#answer_section {
+    padding-top: 16px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+#answer {
+    padding: 8px;
+    background-color: #9999A1;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+}
+
+#answer:hover {
+    background-color: #666673;
+}
+
+#results {
+    background-color: #9999A1;
+    padding: 16px;
+    font-family: sans-serif;
+}

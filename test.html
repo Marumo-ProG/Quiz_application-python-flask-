@@ -2,7 +2,11 @@
 <html>
     <head>
         <title>Test</title>
-        <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="{{ url_for('static', filename='styles/styles.css') }}"
+        />
     </head>
     <body style="padding: 20px">
         <h1 style="text-align: center">Test in Progress</h1>
@@ -15,12 +19,12 @@
         </div>
 
         <div id="answer_section">
-            <a id="answer" href="results.html"> 12 Billion </a>
-            <a id="answer" href="results.html"> 12 Billion </a>
+            <a id="answer" href="/results"> 12 Billion </a>
+            <a id="answer" href="/results"> 12 Billion </a>
         </div>
         <div id="answer_section">
-            <a id="answer" href="results.html"> 12 Billion </a>
-            <a id="answer" href="results.html"> 12 Billion </a>
+            <a id="answer" href="/results"> 12 Billion </a>
+            <a id="answer" href="/results"> 12 Billion </a>
         </div>
         <br />
         <br />

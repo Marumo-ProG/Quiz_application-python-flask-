@@ -15,16 +15,17 @@
         </p>
 
         <div id="question">
-            <h2 style="text-align: center">How many people are in the world?</h2>
+            <h2 style="text-align: center">{{question[1]}}</h2>
         </div>
 
-        <div id="answer_section">
-            <a id="answer" href="/results"> 12 Billion </a>
-            <a id="answer" href="/results"> 12 Billion </a>
+        <div class="answer_section">
+            <a class="answer" href="/results?choice={{ question[2] }}"> {{ question[2] }}</a>
+            <a class="answer" href="/results?choice={{ question[3] }}"> {{ question[3] }}</a>
         </div>
-        <div id="answer_section">
-            <a id="answer" href="/results"> 12 Billion </a>
-            <a id="answer" href="/results"> 12 Billion </a>
+
+        <div class="answer_section">
+            <a class="answer" href="/results?choice={{ question[4] }}"> {{ question[4] }}</a>
+            <a class="answer" href="/results?choice={{ question[5] }}"> {{ question[5] }}</a>
         </div>
         <br />
         <br />

@@ -68,7 +68,7 @@ def test():
     # getting the questions from the database
     cursor, conn = db_connection()
     cursor.execute("SELECT * FROM questions")
-    questions = cursor.fetchall()
+    questions = cursor.fetchall()  # [ ("question", "option1" ...), () ]
     print(questions[session["question_int_tracker"]])
     return render_template(
         "./test.html",
